@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "header_link_buttons",
+  "collectionName": "numbers_on_background",
   "info": {
-    "singularName": "header-link-button",
-    "pluralName": "header-link-buttons",
-    "displayName": "Header Link Button",
-    "description": ""
+    "singularName": "number-on-background",
+    "pluralName": "numbers-on-background",
+    "displayName": "Number on background"
   },
   "options": {
     "draftAndPublish": true
@@ -16,18 +15,18 @@
     }
   },
   "attributes": {
-    "Title": {
+    "Number": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "string"
     },
-    "LinkToPage": {
+    "Text": {
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
       "type": "string"

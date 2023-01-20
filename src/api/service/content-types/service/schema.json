@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "header_link_buttons",
+  "collectionName": "services",
   "info": {
-    "singularName": "header-link-button",
-    "pluralName": "header-link-buttons",
-    "displayName": "Header Link Button",
-    "description": ""
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service"
   },
   "options": {
     "draftAndPublish": true
@@ -24,10 +23,10 @@
       },
       "type": "string"
     },
-    "LinkToPage": {
+    "Text": {
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
       "type": "string"
