@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "header_link_buttons",
+  "info": {
+    "singularName": "header-link-button",
+    "pluralName": "header-link-buttons",
+    "displayName": "Header Link Button"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "LinkToPage": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    }
+  }
+}
