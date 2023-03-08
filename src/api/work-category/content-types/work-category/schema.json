@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "work_categories",
+  "info": {
+    "singularName": "work-category",
+    "pluralName": "work-categories",
+    "displayName": "Work-category"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "works": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::work.work",
+      "mappedBy": "work_category"
+    }
+  }
+}

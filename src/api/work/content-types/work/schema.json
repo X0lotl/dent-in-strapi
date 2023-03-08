@@ -37,6 +37,12 @@
           "localized": false
         }
       }
+    },
+    "work_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::work-category.work-category",
+      "inversedBy": "works"
     }
   }
 }
